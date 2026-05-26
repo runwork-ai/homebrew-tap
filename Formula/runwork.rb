@@ -1,26 +1,26 @@
 class Runwork < Formula
   desc "CLI for Runwork - develop, preview, and deploy Runwork apps"
   homepage "https://www.runwork.ai"
-  version "0.12.0"
+  version "0.13.0"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/runwork-ai/cli/releases/download/v0.12.0/runwork-darwin-arm64.tar.gz"
-      sha256 "84c0a45c436a4d3a57f2633e6a5634caf0b06cf295ce5732d95788cb04e020c5"
+      url "https://github.com/runwork-ai/cli/releases/download/v0.13.0/runwork-darwin-arm64.tar.gz"
+      sha256 "926a33d9ed420c2dcbc8b7126d5c3988bf7d35defc51a50f4b4ee27f82de6628"
     else
-      url "https://github.com/runwork-ai/cli/releases/download/v0.12.0/runwork-darwin-x64.tar.gz"
-      sha256 "2d6b4f4ccd1a5eb4667b44b6ab7bcbcbe6feade5a6a59d1ac7aff29505b0f18d"
+      url "https://github.com/runwork-ai/cli/releases/download/v0.13.0/runwork-darwin-x64.tar.gz"
+      sha256 "2e90eb1dc116a2c5d5d56ec85acabfc2dd7dff26a4c6a6917c7b496dfe2765c8"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/runwork-ai/cli/releases/download/v0.12.0/runwork-linux-arm64.tar.gz"
-      sha256 "c7f819277c3a81246a636aaf26aab6337130c68f21e62453d8746606e1ce76e0"
+      url "https://github.com/runwork-ai/cli/releases/download/v0.13.0/runwork-linux-arm64.tar.gz"
+      sha256 "f028da431ed7d7d75004f2277411e34bd6c77a6e7a350a69a013126b37ab7d3b"
     else
-      url "https://github.com/runwork-ai/cli/releases/download/v0.12.0/runwork-linux-x64.tar.gz"
-      sha256 "cfa74aa0d0cc0b1fb4d0abe443ca772468a88bf5a4e4da961906a30e32273c55"
+      url "https://github.com/runwork-ai/cli/releases/download/v0.13.0/runwork-linux-x64.tar.gz"
+      sha256 "1e68ebb59aa271e821e94d2592c62f03a3ceb9f1974ece7b46d599e7d1acde6e"
     end
   end
 
