@@ -1,12 +1,12 @@
 cask "runwork-desktop" do
-  version "0.25.3"
+  version "0.26.0"
 
   if Hardware::CPU.arm?
-    url "https://github.com/runwork-ai/desktop/releases/download/v0.25.3/Runwork_0.25.3_aarch64.dmg"
-    sha256 "ea8e81f71ae80ccf477eaf7005b1641cff29c50478b4ea885271f0223c8de810"
+    url "https://github.com/runwork-ai/desktop/releases/download/v0.26.0/Runwork_0.26.0_aarch64.dmg"
+    sha256 "ab11b2d829c9d15885b8704552491d25435090d9e5248187980195d8b7a491be"
   else
-    url "https://github.com/runwork-ai/desktop/releases/download/v0.25.3/Runwork_0.25.3_x64.dmg"
-    sha256 "787e4bca03dfb4d8c94b2496b461c67e8517e604f6b09154bcb536762c66d1ff"
+    url "https://github.com/runwork-ai/desktop/releases/download/v0.26.0/Runwork_0.26.0_x64.dmg"
+    sha256 "fdc783f25f8c753d62ec60ad2bc027ec50185a6712be999c1e5ba210428dc11d"
   end
 
   name "Runwork"
